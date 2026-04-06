@@ -16,7 +16,8 @@ dependencies = [
     "openai>=1.0.0",
 ]
 
+[project.scripts]
+server = "server.app:main"
+
 [project.optional-dependencies]
-dev = [
-    "pytest>=7.0",
-]
+dev = ["pytest>=7.0"]
